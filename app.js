@@ -1,13 +1,18 @@
 //array of numbers
- const numbers=[100,500,400,5000,20];
+ let numbers=[100,500,400,5000,20];
+ let sum=0;
+ for(let i=0;i<numbers.length;i++){
+    sum+=numbers[i];
+ }  
+ let average=sum/numbers.length;    
 
-const avaerage=numbers.length;
-const sum=numbers;
 
-const average=sum/numbers.length;
+    
+    
 
-console.log(sum);
-console.log(average);
+    console.log(numbers);
+    console.log(sum);
+    console.log(average);
 
 //objects-book
 
