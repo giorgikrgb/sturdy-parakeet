@@ -25,8 +25,8 @@ const book=[
 
  },
  {    title:"1984", 
-    author:"George Orwell", y
-    ear:1948 }
+    author:"George Orwell", 
+    year:1948 } 
 ];
 
 console.log(book);  
