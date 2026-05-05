@@ -3,9 +3,7 @@
 
 const avaerage=numbers.length;
 const sum=numbers;
-for(const i=0;i<numbers.length;i++){
-    sum+=numbers[i];
-}
+
 const average=sum/numbers.length;
 
 console.log(sum);
